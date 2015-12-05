@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+	h2 Welcome
+	p ID: #{user._id}
+	p Email: #{user.local.email}
+	p
+		a(href='/logout') Logout
